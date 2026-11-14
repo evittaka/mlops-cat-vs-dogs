@@ -34,7 +34,6 @@ RUN curl -fsSL https://packages.cloud.google.com/apt/doc/apt-key.gpg | \
     apt-get install -y google-cloud-sdk && \
     rm -rf /var/lib/apt/lists/*
 
-
 # Install dvc
 RUN pip install dvc[gs]
 
@@ -52,7 +51,7 @@ RUN mkdir -p data/processed
 # Copy data from Google Cloud Storage
 RUN gsutil -m cp -r gs://mlops_catsvsdogs/data/processed/* ./data/processed/
 
-RUN wandb login --relogin ae15357077efc1030be7897029c1176a93502df0
+# Weights & Biases: pass the API key at runtime, e.g. docker run -e WANDB_API_KEY=<your-key> ...
 
 RUN mkdir -p models/
 
