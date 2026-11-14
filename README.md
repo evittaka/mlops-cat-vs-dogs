@@ -5,6 +5,9 @@
 # Project Cats vs. Dogs
 
 ---
+**Group project (team of five)** from the course 02476 Machine Learning Operations at the Technical University of Denmark (DTU), January 2025. This repository is a copy of the team's original repository and keeps the commit history of all contributors.
+
+An end-to-end MLOps pipeline around a cats-vs-dogs image classifier: a MobileNetV3 model from TIMM trained with PyTorch Lightning, Hydra configuration, Weights & Biases experiment tracking, unit tests and CI with GitHub Actions, Docker images built automatically on Google Cloud, training on Vertex AI, and a FastAPI prediction service with a Streamlit frontend. The Google Cloud deployment linked below was part of the course project and may no longer be online.
 
 ## Access
 
