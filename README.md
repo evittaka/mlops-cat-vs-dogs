@@ -1,7 +1,3 @@
-![badge](https://github.com/DevJav/MLOps_catsvsdogs/actions/workflows/tests.yaml/badge.svg?branch=main)
-![badge](https://github.com/DevJav/MLOps_catsvsdogs/actions/workflows/api-tests.yaml/badge.svg?branch=main)
-![badge](https://github.com/DevJav/MLOps_catsvsdogs/actions/workflows/locust.yaml/badge.svg?branch=main)
-
 # Project Cats vs. Dogs
 
 ---
@@ -17,7 +13,7 @@ To use the project, the following links are available
 - Clone the GitHub repository with
 
 ```bash
-git clone https://github.com/evittaka/MLOps_catsvsdogs.git
+git clone https://github.com/evittaka/mlops-cat-vs-dogs.git
 ```
 - Download the training dockerfile from Google Cloud
 ```bash
@@ -50,7 +46,6 @@ The dataset selected for this project is the Cats vs Dogs dataset from Kaggle. T
 ## Models
 
 Our task is to perform binary image classification on the Cats vs Dogs dataset. Initially, we will develop a baseline CNN model to establish a point of reference. Subsequently, we will explore and compare the performance of advanced models available in the TIMM framework, including ConvNeXt, MobileNet V3, ResNet, and VGG. This comparison will help us understand the strengths and trade-offs of each model in terms of accuracy, computational efficiency, and scalability.
-
 
 # Developer Instructions
 
